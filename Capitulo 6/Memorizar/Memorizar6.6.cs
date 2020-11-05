@@ -18,7 +18,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Insira um numero:");
                 numero = Convert.ToInt32(Console.ReadLine());
                 if (numero != 0)
-                    somar += numero;
+                    somar =soma + numero;
             } while (numero != 0);
             Console.WriteLine("A soma dos numeros e {0}.", somar);
         }
