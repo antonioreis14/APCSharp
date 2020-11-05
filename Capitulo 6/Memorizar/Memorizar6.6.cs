@@ -12,15 +12,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int numero, somar = 0;
+            
             do
             {
                 Console.WriteLine("Insira um numero:");
-                numero = Convert.ToInt32(Console.ReadLine());
+                int numero = Convert.ToInt32(Console.ReadLine());
+                int soma=0;
                 if (numero != 0)
-                    somar += numero;
+                    soma =soma + numero;
             } while (numero != 0);
-            Console.WriteLine("A soma dos numeros e {0}.", somar);
+            Console.WriteLine("A soma dos numeros e {0}.", soma);
         }
     }
 }
